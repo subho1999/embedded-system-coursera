@@ -33,7 +33,7 @@
  *
  * @return void
  */
-void print_statistics(unsigned char *arr, int size);
+void print_statistics(unsigned char *arr, unsigned int size);
 
 /**
  * @brief Prints an array to the screen.
@@ -45,7 +45,7 @@ void print_statistics(unsigned char *arr, int size);
  *
  * @return void
  */
-void print_array(unsigned char *arr, int size);
+void print_array(unsigned char *arr, unsigned int size);
 
 /**
  * @brief Sorts an array
@@ -57,7 +57,7 @@ void print_array(unsigned char *arr, int size);
  *
  * @return void
  */
-void sort_array(unsigned char *arr, int length);
+void sort_array(unsigned char *arr, unsigned int length);
 
 /**
  * @brief finds median of the elements of an array
@@ -69,7 +69,7 @@ void sort_array(unsigned char *arr, int length);
  *
  * @return An unsigned char equal to the median of the elements of the array
  */
-unsigned char find_median(unsigned char *arr, int size);
+unsigned char find_median(unsigned char *arr, unsigned int size);
 
 /**
  * @brief finds mean of the elements of an array
@@ -81,7 +81,7 @@ unsigned char find_median(unsigned char *arr, int size);
  *
  * @return An unsigned char equal to the mean of the elements of the array
  */
-unsigned char find_mean(unsigned char *arr, int size);
+unsigned char find_mean(unsigned char *arr, unsigned int size);
 
 /**
  * @brief finds maximum of the elements of an array
@@ -93,7 +93,7 @@ unsigned char find_mean(unsigned char *arr, int size);
  *
  * @return An unsigned char equal to the maximum of the elements of the array
  */
-unsigned char find_maximum(unsigned char *arr, int size);
+unsigned char find_maximum(unsigned char *arr, unsigned int size);
 
 /**
  * @brief finds minimum of the elements of an array
@@ -105,7 +105,7 @@ unsigned char find_maximum(unsigned char *arr, int size);
  *
  * @return An unsigned char equal to the minimum of the elements of the array
  */
-unsigned char find_minimum(unsigned char *arr, int size);
+unsigned char find_minimum(unsigned char *arr, unsigned int size);
 
 
 #endif /* __STATS_H__ */
