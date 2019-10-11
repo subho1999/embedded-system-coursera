@@ -23,17 +23,18 @@
 /* Add Your Declarations and Function Comments here */ 
 
 /**
- * @brief Prints statistics of an array including minimum, maximum, mean, and median.
+ * @brief Prints statistics of an array namely minimum, maximum, mean, and median.
  *
- * Calls other functinons where it passess the necessary parameters to calculate
- * minimum, maximum, mean, and median.
+ * Prints the minimum, maximum, mean, and median to STDOUT.
  *
- * @param arr An unsigned char pointer to the array
- * @param size Size of the array pointed to by arr
+ * @param mean Calculated Mean of the elements of the array.
+ * @param median Calculated Median of the elements of the array.
+ * @param maximum Calculated Maximum of the elements of the array.
+ * @param minimum Calculated Minimum of the elements of the array.
  *
  * @return void
  */
-void print_statistics(unsigned char *arr, unsigned int size);
+void print_statistics(unsigned char mean, unsigned char median, unsigned char maximum, unsigned char minimum);
 
 /**
  * @brief Prints an array to the screen.
@@ -57,7 +58,7 @@ void print_array(unsigned char *arr, unsigned int size);
  *
  * @return void
  */
-void sort_array(unsigned char *arr, unsigned int length);
+void sort_array(unsigned char *arr, unsigned int size);
 
 /**
  * @brief finds median of the elements of an array
